@@ -10136,7 +10136,8 @@ background: linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.2) 25%,rgba(
 }
 
 .gallery-card .gallery-img img {
-    width: 100%
+    width: 100%;
+    height: 260px;
 }
 
 .gallery-card .gallery-btn {
@@ -10919,4 +10920,17 @@ background: linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.2) 25%,rgba(
     .space-extra2-bottom {
         padding-bottom: 70px
     }
+}
+
+
+
+.swiper-button-prev::after,.swiper-button-next::after{
+    font-size: 22px !important;
+    font-weight: 900;
+}
+.swiper-button-prev,.swiper-button-next{
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+   height: 32px;
+   border-radius: 50%;
+   width: 42px !important;
 }
